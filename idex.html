@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,9 +24,23 @@
        <h2>Dropdownlist</h2>
        <p><select name="Balletdanseressen">
         <option value="Martha Graham">Martha Graham </option>
-        
+        <option value="Carlotta Crisi">Carlotta Crisi</option>
+        <option value="Agrippina Vaganova" selected="selected">Agrippina Vaganova</option>
+        <option value="Natalie Portman">Natalie Portman</option>  
        </select></p>
+       <h2>Textarea</h2>
+       <p><textarea rows="7" cols="25" name="opmerkingen"></textarea></p>
+       <h2>Submit knop</h2>
+       <p><input type="submit" value="Verzenden"></p>
     </form>
+    <fieldset>
+        <Legend><h2>Tekstvelden</h2></Legend>
+
+        <p><label for="voornaam">Voornaam:</label> <input id="voornaam" type="text" name="Voornaam:"/></p>
+        <p><label for="achternaam">Achternaam:</label> <input type="text" name="Achternaam:"/></p>
+        <p><label for="password">Wachtwoord:</label> <input type="password" name="pwd:"/></p>
+    </fieldset>
+
 
     </div>
     
